@@ -19,7 +19,7 @@
 - Media Queries
 
 ### Project Deploy Link
-[HeadphoneHome](https://web-design-home-page.netlify.app/)
+[WebdesignHome](https://web-design-home-page.netlify.app/)
 
 ### Author
 [Renusree Madhavarapu](https://github.com/RenusreeMadhavarapu)
