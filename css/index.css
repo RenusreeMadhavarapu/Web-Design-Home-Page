@@ -411,104 +411,63 @@ img.vector-dot{
                    width:12px;
                 }
             }
-    @media (max-width:800px)
-    {
-        .intro-section{
-            
-            display:flex;
-            flex-direction: column-reverse;
-            position:relative;
-
-        }
-        
-       img[alt="intro-img"]
-       {
-           width:400px;
-           margin-left:350px;
-          
-       }
-       img.vector-img
-       {
-           display:none;
-           
-       }
-       img.vector-dot
-       {
-           display:none;
-       }
-       img[alt="backcover-img"]
-       {
-           width:80vw;
-
-        
-       }
-       .left-section{
-         position:absolute;
-         top:70%;
-         left:20%;
-        
-          
-       }
-       
-    }
-    @media (max-width:750px){
-        img[alt="intro-img"]
-       {
-           
-           margin-left:300px;
-          
-       }
-
-    }
-
-    @media (max-width:680px){
-        img[alt="intro-img"]
-       {
-           
-           margin-left:250px;
-          
-       }
-
-    }
-    @media (max-width:600px){
-        img[alt="intro-img"]
-       {
-           
-          width:350px;
-          
-       }
-       .left-section h4{
-           width:70%;
-       }
-
-    }
-
-    @media (max-width:565px){
-        img[alt="intro-img"]
-        {
-            
-            margin-left:200px;
-           
-        }
-        .left-section h4{
-            width:80%;
-        }
-
-    }
-    @media (max-width:500px){
-        img[alt="intro-img"]
-        {
-            
-            margin-left:180px;
-           
-        }
-        .left-section{
-            position:absolute;
-            top:60%;
-            left:0%;
-             
-          }
-
-    }
     
+           @media (max-width:800px){
 
+            .intro-section{
+                margin-bottom:50px;
+            }
+
+            img[alt="backcover-img"]{
+                
+                position:absolute;
+                top:-15%;
+              
+           }
+
+           img[alt="intro-img"]{
+
+            position:absolute;
+            width:400px;
+            top:0%;
+        
+           }
+           img.vector-img,img.vector-dot{
+               display:none;
+           }
+           .left-section{
+
+            margin-top:300px;
+           }
+        }
+
+        @media (max-width:740px){
+
+
+            img[alt="intro-img"]{
+
+               
+                width:300px;
+                margin-right:50px;
+            
+               }
+            }
+               
+           @media (max-width:610px){
+
+            img[alt="backcover-img"]{
+                width:70vw;
+                
+              
+           }
+
+        }
+        @media (max-width:520px){
+
+            img[alt="backcover-img"]{
+                width:80vw;
+                
+              
+           }
+
+        }
